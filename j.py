@@ -1,6 +1,6 @@
 import speech_recognition as sr
 import os 
-from l.wavmp33 import convert
+from mp3towav.wavmp33 import convert
 os.system('cls')
 input_file=input("file name.mp3 or adress:\n")
 output_file=input("file name.wav:\n")
